@@ -79,16 +79,16 @@ obiettivo_secondario = "forza"
 preferenze = "Allenamenti full body"
 
 with st.form('my_form'):
-    sesso = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
-    eta =st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
-    esperienza = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
-    problematiche = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
-    durata = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
-    allenamenti = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
-    durata_allenamenti = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
-    obiettivo_primario = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
-    obiettivo_secondario = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
-    preferenze = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
+    sesso = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 1)
+    eta =st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 2)
+    esperienza = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 3)
+    problematiche = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 4)
+    durata = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 5)
+    allenamenti = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 6)
+    durata_allenamenti = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 7)
+    obiettivo_primario = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 8)
+    obiettivo_secondario = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 9)
+    preferenze = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?', key = 1)
 
     input = "Sono un individuo di sesso {sesso} e ho {eta} anni. Ho {esperienza} esperienza in palestra. Considerando che ho {problematica} fastidi articolari, vorrei un programma di allenamento di {durata} settimane. Ogni settimana dovrà includere {allenamenti} sessioni di allenamento, ciascuna della durata di {durata_allenamenti} ore. Il mio obiettivo principale è {obiettivo_primario} e il mio obiettivo secondario è {obiettivo_secondario}. Si prega di fornire la prima settimana di un programma che tenga conto della mia situazione fisica e degli obiettivi. Non inserire note"
 
